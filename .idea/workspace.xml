@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d47f3776-5ff8-4513-8a3e-dff819b65853" name="Changes" comment="fact">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SumOf_N_naturalNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d47f3776-5ff8-4513-8a3e-dff819b65853" name="Changes" comment="sumOF_N_natural numbers">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci_series.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +38,22 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOf_N_naturalNumbers">
+  <component name="RunManager" selected="Application.Fibonacci_series">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci_series" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Fibonacci_series" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -68,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci_series" />
         <item itemvalue="Application.SumOf_N_naturalNumbers" />
         <item itemvalue="Application.Factorial" />
       </list>
@@ -96,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653137727464</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sumOF_N_natural numbers">
+      <created>1653142884496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653142884496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +132,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fact" />
-    <option name="LAST_COMMIT_MESSAGE" value="fact" />
+    <MESSAGE value="sumOF_N_natural numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="sumOF_N_natural numbers" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/SumOf_N_naturalNumbers.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$SumOf_N_naturalNumbers.ic" NAME="SumOf_N_naturalNumbers Coverage Results" MODIFIED="1653142703617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Recursion.*</FILTER>
+    </SUITE>
   </component>
 </project>
