@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d47f3776-5ff8-4513-8a3e-dff819b65853" name="Changes" comment="sumOF_N_natural numbers">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci_series.java" afterDir="false" />
+    <list default="true" id="d47f3776-5ff8-4513-8a3e-dff819b65853" name="Changes" comment="nth_term in fibo">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PowerOfN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CoDe/Java File's/IntelliJ_WorkSpace/CodeChef",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CoDe/Java File's/IntelliJ_WorkSpace/CodeChef&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Fibonacci_series">
+}</component>
+  <component name="RunManager" selected="Application.PowerOfN">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
       <module name="DSA" />
@@ -65,6 +66,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PowerOfN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PowerOfN" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumOf_N_naturalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.SumOf_N_naturalNumbers" />
       <module name="DSA" />
@@ -80,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerOfN" />
         <item itemvalue="Application.Fibonacci_series" />
         <item itemvalue="Application.SumOf_N_naturalNumbers" />
         <item itemvalue="Application.Factorial" />
@@ -116,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653142884496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nth_term in fibo">
+      <created>1653144279991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653144279991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +155,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fact" />
     <MESSAGE value="sumOF_N_natural numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="sumOF_N_natural numbers" />
+    <MESSAGE value="nth_term in fibo" />
+    <option name="LAST_COMMIT_MESSAGE" value="nth_term in fibo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
